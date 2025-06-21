@@ -1,4 +1,3 @@
-<script>
 document.addEventListener('DOMContentLoaded', function() {
     // --- TYPING EFFECT ---
     const textToType = "Driving Spotify's Growth, One Insight at a Time.";
@@ -144,4 +143,4 @@ document.addEventListener('DOMContentLoaded', function() {
         animate();
     }
 });
-<script/>
+
