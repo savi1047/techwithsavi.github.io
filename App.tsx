@@ -4,7 +4,7 @@ import { CvData, ContactInfo, ExperienceItem, ProjectItem, EducationItem, Certif
 import { 
   IconGitHub, IconLinkedIn, IconMail, IconPhone, IconExternalLink,
   IconHome, IconSearch, IconLibrary, IconSpotifyLogo, IconPlayCircle, IconUser 
-} from './components/icons';
+} from './icons';
 
 const cvData: CvData = {
   name: "Savi Savi",
