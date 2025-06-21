@@ -4,147 +4,225 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Savi Savi | Data Scientist Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script> </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 <body>
     <div class="main-container">
         <div class="sidebar">
             <div class="logo">
-                <svg viewBox="0 0 1134 340" class="spotify-logo"><path fill="currentColor" d="M8 171c0 92 76 168 168 168s168-76 168-168S268 3 176 3 8 79 8 171zm230 78c-39-24-89-30-147-17-14 3-23-4-26-18s4-23 18-26c67-15 125-8 172 19 12 7 15 21 8 33-7 12-21 15-33 8zm17-46c-32-20-80-27-130-14-11 3-22-4-24-15s4-22 15-24c58-15 113-7 152 16 10 6 12 19 6 29-6 10-19 12-29 6zm-4-45c-27-16-72-20-119-11-10 2-20-3-22-14s3-20 14-22c53-12 106-7 140 12 9 5 11 16 6 25-5 9-16 11-25 6zM512 3c-92 0-168 76-168 168s76 168 168 168 168-76 168-168S604 3 512 3zm136 249c-39-24-89-30-147-17-14 3-23-4-26-18s4-23 18-26c67-15 125-8 172 19 12 7 15 21 8 33-7 12-21 15-33 8zm17-46c-32-20-80-27-130-14-11 3-22-4-24-15s4-22 15-24c58-15 113-7 152 16 10 6 12 19 6 29-6 10-19 12-29 6zm-4-45c-27-16-72-20-119-11-10 2-20-3-22-14s3-20 14-22c53-12 106-7 140 12 9 5 11 16 6 25-5 9-16 11-25 6zM848 3c-92 0-168 76-168 168s76 168 168 168 168-76 168-168S940 3 848 3zm136 249c-39-24-89-30-147-17-14 3-23-4-26-18s4-23 18-26c67-15 125-8 172 19 12 7 15 21 8 33-7 12-21 15-33 8zm17-46c-32-20-80-27-130-14-11 3-22-4-24-15s4-22 15-24c58-15 113-7 152 16 10 6 12 19 6 29-6 10-19 12-29 6zm-4-45c-27-16-72-20-119-11-10 2-20-3-22-14s3-20 14-22c53-12 106-7 140 12 9 5 11 16 6 25-5 9-16 11-25 6z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="spotify-logo" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .138.788m.973-2.43a.625.625 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.625.625 0 0 1 .206.965m.092-2.54a.75.75 0 0 1-1.026.284c-2.496-1.52-6.83-1.955-9.448-1.078a.75.75 0 0 1-.44-1.414c3.111-.99 7.924-.502 10.925 1.256a.75.75 0 0 1 .26.97Z"/>
+                </svg>
+                Savi Savi
             </div>
             <nav>
                 <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#hero"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-user"></i> About Me</a></li>
+                    <li><a href="#projects"><i class="fa-solid fa-lightbulb"></i> Projects</a></li>
+                    <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+                    <li><a href="#experience"><i class="fa-solid fa-briefcase"></i> Experience</a></li>
+                    <li><a href="#playlist"><i class="fa-solid fa-headphones"></i> My Playlist</a></li>
                 </ul>
             </nav>
-            <div class="sidebar-footer">
-                 <a href="https://github.com/your-github-username" target="_blank">GitHub</a>
-                 <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a>
+            <div class="contact-icons">
+                <a href="https://github.com/savi1047/Data-Analytics/blob/main/README.md" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/savi-/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:khannasavi2001@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:07436590899" title="Call"><i class="fa-solid fa-phone"></i></a>
             </div>
         </div>
 
         <div class="main-content">
-            <header class="main-header">
-                </header>
-
-            <section id="hero">
+            <section id="hero" class="hidden">
+                <canvas id="hero-canvas"></canvas>
                 <div class="hero-content">
                     <h1 class="typing-effect"></h1>
-                    <h2>Savi Savi | Data Scientist | Business & Growth Analytics</h2>
-                    <p>Welcome to my portfolio. I leverage data to drive strategy and user growth.</p>
+                    <h2>Data Scientist | Business & Growth Analytics</h2>
+                    <p>A highly analytical and results-oriented Data Analyst eager to help shape and scale Spotify's core algorithmic decision-making platform.</p>
                 </div>
             </section>
 
-            <section id="about">
-                <div class="section-title">Who You Are (A Perfect Match)</div>
+            <section id="about" class="hidden">
+                <div class="section-title">About Me</div>
                 <div class="about-content">
                     <div class="about-text">
-                        <h3>Intellectually curious, creative, and diligent Data Scientist.</h3>
+                        <h3>Translating Data into Impact</h3>
                         <p>
-                            A highly analytical and results-oriented Data Analyst with a Distinction-level STEM degree.  I enjoy thinking about the business as much as the data, translating complex datasets into compelling narratives and actionable insights for C-suite stakeholders to influence product roadmaps.  My goal is to apply robust problem-solving skills to help shape and scale Spotify's core algorithmic decision-making platform on the Routing Team. 
+                            With a Distinction-level STEM degree and advanced proficiency in Python, SQL, and Tableau, I specialize in turning complex data into compelling narratives. My experience includes designing and executing large-scale Monte-Carlo simulations and $A/B$ tests to drive business impact and influence product roadmaps for C-suite stakeholders.
                         </p>
-                         <p>
-                            I have experience in designing and executing large-scale simulations (Monte-Carlo) and A/B tests to drive business impact.  I am comfortable using AI-powered tools to accelerate analysis and am eager to collaborate with a globally distributed team of world-class professionals to drive the growth of Spotify's user base.
-                         </p>
                     </div>
-                     <div class="skills-list">
+                    <div class="skills-list">
                         <h3>Technical Skills</h3>
                         <ul>
-                            <li><b>Data Analysis & ML:</b> SQL, Python, R, Predictive Analytics, A/B Testing, Monte-Carlo Simulations </li>
-                            <li><b>Data Processing:</b> ETL, Data Modeling, Data Warehousing, Data Cleaning </li>
-                            <li><b>Visualization & Reporting:</b> Tableau, Power BI (DAX), Matplotlib, Seaborn, KPI Monitoring </li>
-                            <li><b>Databases:</b> SQL Server, MongoDB, Cosmos DB </li>
-                            <li><b>Cloud & Tools:</b> Azure, AWS, Git, Jupyter Notebooks </li>
+                            <li><b>Data Analysis & ML:</b> SQL, Python, R, Predictive Analytics, A/B Testing, Monte-Carlo Simulations</li>
+                            <li><b>Visualization & Reporting:</b> Tableau, Power BI (DAX), Matplotlib, Seaborn, KPI Monitoring</li>
+                            <li><b>Cloud & Tools:</b> Azure, AWS, Git, Jupyter Notebooks</li>
                         </ul>
                     </div>
                 </div>
             </section>
 
-            <section id="projects">
-                <h2 class="section-title">What You'll Do (A Preview of My Work)</h2>
-                 <div class="project-grid">
-                    <div class="project-card">
-                        <div class="project-image" style="background-color: #8C1BAB;">
-                           <h4>Project 1</h4>
+            <section id="projects" class="hidden">
+                <h2 class="section-title">My Work</h2>
+                <div class="project-grid">
+                    <div class="project-card spotify-style" style="background-image: url('https://images.unsplash.com/photo-1554224155-1696413565d3?q=80&w=2940&auto=format&fit=crop');">
+                        <div class="card-content">
+                            <p class="card-category">Project</p>
+                            <h3>Competitive Growth Strategy Analysis</h3>
+                            <p class="card-description">Automated data extraction from SEC filings using Python. Designed an analysis analogous to an A/B test to create a data-driven "better buy" decision.</p>
                         </div>
-                        <h3>Competitive Growth Strategy Analysis</h3>
-                        <p>Developed Python parsers to automate data extraction from SEC filings.  Designed and ran an analysis comparing competitive strategy and financial strength, analogous to an A/B test on business performance, to create a data-driven "better buy" decision. </p>
                     </div>
 
-                     <div class="project-card">
-                        <div class="project-image" style="background-color: #2D46B9;">
-                            <h4>Project 2</h4>
+                    <div class="project-card spotify-style" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop');">
+                        <div class="card-content">
+                            <p class="card-category">Project</p>
+                            <h3>Predictive Risk/Return Modeling</h3>
+                            <p class="card-description">Engineered predictive models for 'FAANG' stocks. Compared simple return analysis with Monte-Carlo simulations and created visualizations to communicate findings.</p>
                         </div>
-                        <h3>Predictive Risk/Return Modeling</h3>
-                        <p>Engineered predictive models for 'FAANG' stocks by analyzing moving averages and daily returns.  Compared simple return analysis with Monte-Carlo simulations to provide a more robust risk assessment and created visualizations with Matplotlib/Seaborn to communicate findings. </p>
                     </div>
 
-                    <div class="project-card">
-                        <div class="project-image" style="background-color: #B02897;">
-                            <h4>Project 3</h4>
+                    <div class="project-card spotify-style" style="background-image: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2940&auto=format&fit=crop');">
+                        <div class="card-content">
+                            <p class="card-category">Project</p>
+                            <h3>Scalable Infrastructure & Automation</h3>
+                            <p class="card-description">Scripted Python/Ansible workflows to cut manual ticket resolution effort by 40%. Deployed scalable Azure Kubernetes (AKS) clusters for 99.9% uptime.</p>
                         </div>
-                        <h3>Scalable Data & Infrastructure Automation</h3>
-                        <p>Scripted Python/Ansible workflows to auto-resolve 250+ tickets, cutting manual effort by 40% and demonstrating the ability to build efficient data pipelines.  Deployed and managed scalable Azure Kubernetes (AKS) clusters for microservices, ensuring 99.9% uptime for 25K+ devices. </p>
                     </div>
-
-                 </div>
+                </div>
+            </section>
+            
+            <section id="education" class="hidden">
+                <h2 class="section-title">Education & Certifications</h2>
+                <div class="education-container">
+                    <div class="education-card">
+                        <h3>BSc (Hons) Computing Systems with Diploma in Professional Practice</h3>
+                        <p class="institution">Ulster University London</p>
+                        <p class="distinction">Graduated with Distinction (2024)</p>
+                        <p><b>Relevant Courses:</b> Data Mining & Analytics, Statistical Analysis, Database Management Systems, Business Intelligence</p>
+                    </div>
+                    <div class="certifications-grid">
+                        <a href="https://learn.microsoft.com/en-us/users/savisavi-2536/credentials/8e84b45002c3f118?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" class="cert-card">
+                            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjJkOXZra3RyODN5aHV0cHk2YjRzZ2xveWltbGlraHBkc2I3MGpyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Wpaph5B5DxxLm2TPlv/giphy.gif" alt="Azure Logo">
+                            <span>AZ-104: Azure Administrator</span>
+                        </a>
+                        <a href="https://learn.microsoft.com/api/credentials/share/en-us/SaviSavi-2536/76FCC47517D8B43" target="_blank" class="cert-card">
+                            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnVld3R3bHVhZ2Ntejc4b2ZlczV2d3ZlanJwcHpxZzM5d3hpOThuMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/J4JNAMKxIjEui10hi5/giphy.gif" alt="Azure Logo">
+                            <span>AZ-900: Azure Fundamentals</span>
+                        </a>
+                        <a href="https://www.linkedin.com/learning/certificates/946452a4227be2f76d93d9de744e714e4533f69958a13e1bdc93e1a946acbc54?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bz1328GtGQqWdTElCOme12Q%3D%3D" target="_blank" class="cert-card">
+                            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXk4a3Q2bzVlY29sbnNsZG56Y2psZzVoZWJ5eTUzbGcxYThmbGNpMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/54Ver0jab4VFD5sJ3n/giphy.gif" alt="LinkedIn Logo">
+                            <span>SQL for Data Analysis</span>
+                        </a>
+                        <a href="https://www.linkedin.com/learning/certificates/33761eda745f4408b0a4818b0be1edc8d844ab5748845bf4289df93d9b92f0ce?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B9HnDqs8dSkCFp12SEEtxoA%3D%3D" target="_blank" class="cert-card">
+                            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExajRjNTFiY2hwdGtxdmtrMjExbGFzZmEyNGs0bnBmMHBmaHg1MHJ1MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Ymb0S08TSCswkcZSh6/giphy.gif" alt="Power BI Logo">
+                            <span>Power BI</span>
+                        </a>
+                        <a href="https://www.linkedin.com/learning/certificates/7a979107577f37eb6481056539a152bc97718617fd369567d1c7a48460d96a0a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B9HnDqs8dSkCFp12SEEtxoA%3D%3D" target="_blank" class="cert-card">
+                            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODRibGRiZ2Rzdjd4amhtNHY0bTZhYjV2eXNrajFudjV1NHZ3MXZobyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/j1sITHFgUlCZbzp8V1/giphy.gif" alt="ISO Logo">
+                            <span>ISO 27001:2022 Cybersecurity</span>
+                        </a>
+                    </div>
+                </div>
             </section>
 
-            <section id="experience">
-                 <h2 class="section-title">Professional Experience</h2>
-                 <div class="timeline">
-                     <div class="timeline-item">
-                         <div class="timeline-dot"></div>
-                         <div class="timeline-date">Sep 2023 - Present</div>
-                         <div class="timeline-content">
-                             <h3>Senior IT Technician</h3>
-                             <h4>GBS, London</h4>
-                             <ul>
-                                <li><b>Scalable Infrastructure:</b> Deployed Azure Kubernetes (AKS) clusters for microservices, ensuring 99.9% uptime for 25K+ devices. </li>
-                                 <li><b>Automation:</b> Scripted Python/Ansible workflows to auto-resolve 250+ tickets, cutting manual effort by 40%. </li>
-                                 <li><b>Financial Compliance:</b> Implemented ISO 27001 controls via Azure Security Center, reducing vulnerabilities by 40%. </li>
-                             </ul>
-                         </div>
-                     </div>
-                     <div class="timeline-item">
+            <section id="experience" class="hidden">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Sep 2023 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Senior IT Technician</h3>
+                            <h4>GBS, London</h4>
+                            <ul>
+                                <li>Driving strategic infrastructure improvements to support data-driven operations across the company, focusing on networking, application security, and data access protocols.</li>
+                                <li>Implementing and managing ISO 27001 controls using Azure Security Center to enhance data security and reduce system vulnerabilities by 40%.</li>
+                                <li>Designing and deploying scalable Azure Kubernetes (AKS) clusters to ensure 99.9% uptime for services supporting over 25,000 devices.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-date">Jun 2022 - Sep 2023</div>
                         <div class="timeline-content">
                             <h3>IT Technician</h3>
                             <h4>GBS, London</h4>
                             <ul>
-                                <li><b>Cloud Training:</b> Led Azure adoption workshops, reducing team onboarding time by 25%. </li>
-                                <li><b>Incident Management:</b> Resolved AWS/Azure infrastructure issues, achieving 95% SLA compliance. </li>
+                                <li>Provided critical technical support by troubleshooting hardware/software issues, managing incidents through a service management system to maintain operational stability.</li>
+                                <li>Developed and led Azure adoption workshops, effectively reducing team onboarding time by 25% and increasing cloud competency.</li>
+                                <li>Achieved a 95% SLA compliance rate by efficiently resolving AWS and Azure infrastructure issues, ensuring consistent service availability.</li>
                             </ul>
                         </div>
                     </div>
-                     <div class="timeline-item">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Nov 2021 - May 2024</div>
+                        <div class="timeline-content">
+                            <h3>Student Ambassador</h3>
+                            <h4>Ulster University, London</h4>
+                            <ul>
+                                <li>Acted as a key liaison between the student body and university officials, gathering and presenting student feedback to influence university programs and policies.</li>
+                                <li>Organized and promoted university events, demonstrating strong communication and stakeholder engagement skills.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-date">Jun 2021 - Jun 2022</div>
                         <div class="timeline-content">
-                            <h3>Account Manager</h3>
+                            <h3>Account & Retrofit Manager</h3>
                             <h4>Eco Target Ltd</h4>
                             <ul>
-                                <li><b>Stakeholder Coordination:</b> Drove 15% client growth by aligning tech solutions with business needs. </li>
+                                <li>Coordinated with diverse stakeholders and translated business needs into technical solutions, leading to a 15% growth in the client base.</li>
+                                <li>Managed project lifecycles from start to finish, including compliance checks, documentation verification, and resource scheduling to ensure successful outcomes.</li>
+                                <li>Conducted research to identify new business opportunities, showcasing an analytical approach to driving company growth.</li>
                             </ul>
                         </div>
                     </div>
-                 </div>
-            </section>
-             <footer class="main-footer">
-                <div class="footer-content">
-                    <p>Savi Savi | Let's connect and talk data.</p>
-                    <p>khannasavi2001@gmail.com | 07436 590899</p>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Apr 2021 - Jun 2021</div>
+                        <div class="timeline-content">
+                            <h3>Associate (NHS Project)</h3>
+                            <h4>Woven</h4>
+                            <ul>
+                                <li>Provided critical technical consultation for a 3-month NHS project during the COVID-19 pandemic.</li>
+                                <li>Handled sensitive data and issued official travel documents according to strict government protocols, demonstrating a high level of responsibility and precision.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+            </section>
+            
+            <section id="playlist" class="hidden">
+                <h2 class="section-title">My Favorite Playlist</h2>
+                <div class="playlist-container">
+                    <div class="playlist-card">
+                        <div class="playlist-info">
+                            <h3>Lofi Beats</h3>
+                            <p>A collection of chill, instrumental hip-hop beats perfect for deep focus, coding, or late-night analysis. My go-to for productivity.</p>
+                            <a href="https://open.spotify.com/playlist/0mBPemktVDin1pjQYNa6su" target="_blank" class="playlist-button">Listen Now <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="main-footer">
+                <div class="contact-icons">
+                    <a href="https://github.com/savi1047/Data-Analytics/blob/main/README.md" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/savi-/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:khannasavi2001@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="tel:07436590899" title="Call"><i class="fa-solid fa-phone"></i></a>
+                </div>
+                <p>Savi Savi | London, UK</p>
             </footer>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
